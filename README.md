@@ -22,3 +22,15 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+```bash
+rails new bloqueira-de-baixa-renda --database=postgresql
+
+rails s
+
+rails generate controller Articles index --skip-routes
+
+rails generate model Article title:string body:text
+
+
+```
