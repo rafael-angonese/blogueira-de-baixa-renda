@@ -32,5 +32,9 @@ rails generate controller Articles index --skip-routes
 
 rails generate model Article title:string body:text
 
+rails generate model Comment commenter:string body:text article:references
 
+rails generate controller Comments
+
+rails db:migrate
 ```
